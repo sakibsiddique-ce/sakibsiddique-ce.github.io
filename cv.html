@@ -4,64 +4,97 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CV — Sakib Siddique</title>
+<meta name="description" content="Curriculum vitae of Sakib Siddique, Lecturer in Civil Engineering.">
 <link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 </head>
 <body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Sakib Siddique</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="cv.html" aria-current="page">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" type="button" onclick="toggleTheme()">Dark</button>
+  </div>
+</nav>
+
+<header class="banner">
+  <img src="assets/img/banner.jpg" alt="">
+  <div class="banner-text">
+    <h1>Curriculum Vitae</h1>
+    <p>Full CV available as a PDF</p>
+  </div>
+</header>
+
 <div class="wrap">
-  <header class="site-header">
-    <div class="identity">
-      <img class="avatar" src="assets/img/photo.jpg" alt="Sakib Siddique" onerror="this.style.display='none'">
-      <div>
-        <h1>Sakib Siddique</h1>
-        <p class="role">Lecturer @ DIU | BUET CE | Structural Health Monitoring &amp; ML for damage detection | PhD applicant</p>
-      </div>
-    </div>
-    <nav class="site-nav">
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="cv.html" aria-current="page">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <main>
-    <p><a class="btn" href="assets/files/sakib_siddique_cv.pdf">Download full CV (PDF)</a></p>
 
-    <h2>Education</h2>
-    <div class="entry">
-      <h3>B.Sc. in Civil Engineering</h3>
-      <div class="meta">Bangladesh University of Engineering and Technology (BUET), Dhaka — 2019–2024</div>
-      <p>CGPA 3.67/4.00. Major: Structural Engineering. Minor: Transportation Engineering. Thesis: "Bridge Damage Identification Using Bi-LSTM," supervised by Dr. Shohel Rana.</p>
-    </div>
+    <p><a class="btn" href="assets/files/sakib_siddique_cv.pdf">Download CV (PDF)</a></p>
 
-    <h2>Experience</h2>
-    <div class="entry">
-      <h3>Lecturer, Department of Civil Engineering</h3>
-      <div class="meta">Daffodil International University — July 2024–Present</div>
-      <p>Teaching Structural Analysis, Engineering Mechanics, Bridge Design, Python Programming, and AutoCAD. Lab in-charge, Concrete Laboratory. Member, Curriculum Committee, supporting outcome-based education (OBE) and BAETE/BAC accreditation work.</p>
-    </div>
+    <h2>Summary</h2>
+    <p>
+      Lecturer in Civil Engineering at Daffodil International University since July 2024.
+      B.Sc. in Civil Engineering from BUET (CGPA 3.67/4.00), major in Structural Engineering,
+      minor in Transportation Engineering. First-author journal publication in structural health
+      monitoring, with three further research projects in progress. Full detail &mdash;
+      including references &mdash; is in the PDF.
+    </p>
+
+    <h2>At a glance</h2>
+    <dl class="deflist">
+      <dt>Current position</dt>
+      <dd>Lecturer, Department of Civil Engineering, Daffodil International University</dd>
+      <dt>Degree</dt>
+      <dd>B.Sc. in Civil Engineering, BUET, 2024 &mdash; CGPA 3.67/4.00</dd>
+      <dt>English proficiency</dt>
+      <dd>IELTS Academic 6.5 overall (L 7.0, R 6.5, W 6.0, S 6.5)</dd>
+      <dt>Research area</dt>
+      <dd>Structural health monitoring, vibration-based damage detection, deep learning for civil infrastructure</dd>
+    </dl>
 
     <h2>Skills</h2>
-    <dl class="skill-grid">
-      <dt>Programming &amp; ML</dt>
-      <dd>Python, MATLAB, C, C++, TensorFlow, Keras, PyTorch, Scikit-Learn</dd>
-      <dt>Design &amp; analysis</dt>
+    <dl class="deflist">
+      <dt>Programming and libraries</dt>
+      <dd>MATLAB, C, C++, Python, HTML &mdash; Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, TensorFlow, Keras, PyTorch</dd>
+      <dt>Design and analysis tools</dt>
       <dd>AutoCAD, ETABS, SAP2000, SketchUp</dd>
+      <dt>Productivity and management</dt>
+      <dd>Microsoft Office, Linux, Adobe software, Primavera P6</dd>
     </dl>
 
     <h2>Certifications</h2>
+
     <div class="entry">
       <h3>Introduction to Programming with MATLAB</h3>
-      <div class="meta">Vanderbilt University, via Coursera — completed June 2020</div>
+      <div class="meta">Vanderbilt University, via Coursera &middot; June 2020</div>
     </div>
-  </main>
 
-  <footer>
-    &copy; 2026 Sakib Siddique. Built as a static site, hosted on GitHub Pages.
-  </footer>
+    <h2>References</h2>
+    <p class="muted">
+      Three academic referees are listed in the PDF. Their contact details are available on
+      request rather than published here.
+    </p>
+
+  </main>
 </div>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Sakib Siddique &middot;
+    <a href="mailto:sakibsiddique8@gmail.com">sakibsiddique8@gmail.com</a> &middot;
+    <a href="https://github.com/sakibsiddique-ce">GitHub</a><br>
+    Banner: <em>Golden Gate Bridge at Purple Sunset</em> by Umer Sayyam, public domain (CC0), via Wikimedia Commons.
+  </div>
+</footer>
+
+<script src="assets/js/theme.js"></script>
 </body>
 </html>

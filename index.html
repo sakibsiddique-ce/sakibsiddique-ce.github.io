@@ -4,77 +4,120 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sakib Siddique</title>
-<meta name="description" content="Sakib Siddique — Lecturer, Civil Engineering, Daffodil International University. Research in structural health monitoring and machine learning for damage detection.">
+<meta name="description" content="Sakib Siddique — Lecturer in Civil Engineering at Daffodil International University. Research in structural health monitoring and machine learning for civil infrastructure.">
 <link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 </head>
 <body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">Sakib Siddique</a>
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" type="button" onclick="toggleTheme()">Dark</button>
+  </div>
+</nav>
+
+<header class="banner">
+  <img src="assets/img/banner.jpg" alt="">
+  <div class="banner-text">
+    <h1>Sakib Siddique</h1>
+    <p>Structural Health Monitoring &middot; Machine Learning for Infrastructure</p>
+  </div>
+</header>
+
 <div class="wrap">
-  <header class="site-header">
-    <div class="identity">
-      <img class="avatar" src="assets/img/photo.jpg" alt="Sakib Siddique" onerror="this.style.display='none'">
+  <main>
+
+    <div class="intro">
+      <img src="assets/img/photo.jpg" alt="Sakib Siddique" onerror="this.style.display='none'">
       <div>
-        <h1>Sakib Siddique</h1>
-        <p class="role">Lecturer @ DIU | BUET CE | Structural Health Monitoring &amp; ML for damage detection | PhD applicant</p>
+        <p class="lead">
+          I am a Lecturer in the Department of Civil Engineering at Daffodil International
+          University, Dhaka. I completed my B.Sc. in Civil Engineering at the Bangladesh
+          University of Engineering and Technology (BUET) in July 2024, with a major in
+          Structural Engineering and a minor in Transportation Engineering.
+        </p>
+        <p class="intro-links">
+          <a href="mailto:sakibsiddique8@gmail.com">Email</a>
+          <a href="assets/files/sakib_siddique_cv.pdf">CV</a>
+          <a href="publications.html">Publications</a>
+          <a href="https://github.com/sakibsiddique-ce">GitHub</a>
+        </p>
       </div>
     </div>
-    <nav class="site-nav">
-      <ul>
-        <li><a href="index.html" aria-current="page">About</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
     <p>
-      I am a Lecturer in the Department of Civil Engineering at Daffodil International University, Dhaka,
-      and a graduate of the Bangladesh University of Engineering and Technology (BUET), where I completed
-      my B.Sc. in Civil Engineering (Major: Structural Engineering, Minor: Transportation Engineering) in
-      July 2024 with a CGPA of 3.67/4.00.
+      My work sits between structural engineering and machine learning. The problem I keep
+      returning to is this: when the only thing available is noisy, indirect sensor data, how
+      do you tell reliably what is happening inside a structure? My undergraduate thesis
+      approached it as a damage detection problem on a bridge, using vehicle-induced vibration
+      response and a semi-supervised deep learning model trained where labeled damage cases are
+      scarce. I am now extending that work from detecting damage to locating it.
     </p>
 
     <p>
-      My research sits at the intersection of structural engineering and machine learning, focused on
-      <strong>structural health monitoring (SHM)</strong> — using data-driven methods to detect and
-      eventually localize damage in bridges and other infrastructure from vibration response data. I am
-      currently applying for PhD positions to continue this work.
+      Two further projects apply the same data-driven approach elsewhere in civil
+      infrastructure: a YOLOv8-based road damage detection framework benchmarked on RDD2022,
+      and a predictive maintenance analysis of a 3.7-million-record facility maintenance
+      dataset. I am currently applying for fully funded PhD positions in these areas.
     </p>
 
-    <h2>Background</h2>
-    <p>
-      The motivation behind my research is straightforward: Bangladesh's bridge network is aging and
-      under increasing stress from traffic density, environmental exposure, and climatic risk, while
-      conventional visual inspection is slow, subjective, and blind to internal damage. My undergraduate
-      thesis, supervised by Dr. Shohel Rana at BUET, addressed this with a deep learning framework for
-      bridge damage identification using vehicle-induced dynamic displacement data, published as a
-      first-author paper at IUT-ICCET 2024. I am currently extending that work toward damage
-      localization using multi-sensor vibration data.
-    </p>
+    <h2>Research interests</h2>
+    <ul>
+      <li>Structural health monitoring and vibration-based damage detection</li>
+      <li>Damage localization from multi-sensor response data</li>
+      <li>Deep learning for civil infrastructure &mdash; MLP, Bi-LSTM, and object detection models</li>
+      <li>Learning under scarce labels: semi-supervised and physics-informed approaches</li>
+      <li>Intelligent transportation systems and automated road condition assessment</li>
+      <li>Predictive maintenance and facility asset analytics</li>
+      <li>Risk assessment frameworks for aging bridge networks in Bangladesh</li>
+    </ul>
 
-    <p>
-      Alongside SHM, I am working on two related applications of deep learning to civil infrastructure:
-      a multi-national road damage detection framework benchmarked on RDD2022 (with Dr. Celia Shahnaz),
-      and a predictive maintenance analysis of a 3.7-million-record facility maintenance dataset
-      (reviewed by Dr. Kahyun Jeon, IIT). See <a href="research.html">Research</a> for details. I also
-      teach Structural Analysis, Engineering Mechanics, Bridge Design, Python Programming, and AutoCAD
-      at DIU, where I serve on the Curriculum Committee supporting the department's outcome-based
-      education and accreditation work.
-    </p>
+    <h2>Latest news</h2>
+    <ul class="news">
+      <li>
+        <span class="date">2026</span>
+        <span>Developing a YOLOv8-based multi-national road damage detection framework on the RDD2022 benchmark, supervised by Dr. Celia Shahnaz, targeting <em>IEEE Transactions on Intelligent Transportation Systems</em>.</span>
+      </li>
+      <li>
+        <span class="date">2026</span>
+        <span>Completed an exploratory analysis and predictive maintenance research proposal on the FMUCD facility maintenance dataset, reviewed by Dr. Kahyun Jeon (Illinois Institute of Technology).</span>
+      </li>
+      <li>
+        <span class="date">Apr 2025</span>
+        <span>Presented my first-author paper on semi-supervised bridge damage identification at IUT-ICCET, Islamic University of Technology.</span>
+      </li>
+      <li>
+        <span class="date">Jul 2024</span>
+        <span>Joined Daffodil International University as a Lecturer in the Department of Civil Engineering.</span>
+      </li>
+      <li>
+        <span class="date">2024</span>
+        <span>Paper published in the <em>IUT Journal of Engineering and Technology</em>, Vol. 19, No. 2.</span>
+      </li>
+    </ul>
 
-    <h2>Elsewhere</h2>
-    <p class="muted">
-      <a href="mailto:sakibsiddique8@gmail.com">Email</a> ·
-      <a href="cv.html">CV</a> ·
-      <a href="https://github.com/sakibsiddique-ce">GitHub</a>
-    </p>
   </main>
-
-  <footer>
-    &copy; 2026 Sakib Siddique. Built as a static site, hosted on GitHub Pages.
-  </footer>
 </div>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Sakib Siddique &middot;
+    <a href="mailto:sakibsiddique8@gmail.com">sakibsiddique8@gmail.com</a> &middot;
+    <a href="https://github.com/sakibsiddique-ce">GitHub</a><br>
+    Banner: <em>Golden Gate Bridge at Purple Sunset</em> by Umer Sayyam, public domain (CC0), via Wikimedia Commons.
+  </div>
+</footer>
+
+<script src="assets/js/theme.js"></script>
 </body>
 </html>

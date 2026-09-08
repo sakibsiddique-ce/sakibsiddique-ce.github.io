@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Sakib Siddique</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header">
+    <div class="identity">
+      <img class="avatar" src="assets/img/photo.jpg" alt="Sakib Siddique" onerror="this.style.display='none'">
+      <div>
+        <h1>Sakib Siddique</h1>
+        <p class="role">Lecturer @ DIU | BUET CE | Structural Health Monitoring &amp; ML for damage detection | PhD applicant</p>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html" aria-current="page">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Motivation</h2>
+    <p>
+      The old and deteriorating bridge network in Bangladesh is at risk due to increasing traffic
+      density, environmental pollution, and climatic risks. Conventional visual inspection techniques
+      are biased, time-consuming, and unable to identify internal damage at an early stage. This
+      motivated my interest in developing intelligent, data-driven approaches to structural health
+      monitoring (SHM) that offer continuous, automated, and reliable damage assessment of
+      infrastructure.
+    </p>
+
+    <h2>Past work</h2>
+    <p>
+      My undergraduate thesis at BUET, supervised by Prof. Shohel Rana, focused on developing a deep
+      learning-based framework for bridge damage identification using vehicle-induced dynamic
+      displacement data. I modeled the problem as binary classification — presence or absence of
+      structural damage — from vibration response signals. A key challenge was the lack of labeled
+      damage data, a common bottleneck in real-world SHM. To address this, I implemented a
+      semi-supervised model based on a Multilayer Perceptron (MLP), using both labeled and unlabeled
+      data to improve detection performance. I also explored Bi-directional LSTM networks to capture
+      temporal dependencies in vibration signals, which improved sensitivity to subtle damage patterns.
+      This work was presented at IUT-ICCET and published as a first-author paper in the IUT Journal of
+      Engineering and Technology (2024). See the <a href="publications.html">Publications</a> page for
+      the full citation and PDF.
+    </p>
+
+    <h2>Ongoing work</h2>
+    <p>
+      I am currently writing a follow-up paper on damage <em>localization</em> — extending the
+      detection framework not just to flag damage, but to locate it within the structure, by
+      extracting spatial information from multi-sensor vibration data.
+    </p>
+
+    <h2>Broader interests</h2>
+    <p>
+      Beyond SHM, I am interested in developing risk assessment frameworks for infrastructure in
+      Bangladesh, in continued collaboration between RHD and BUET, and in Intelligent Transportation
+      Systems (ITS) as a related application of data-driven modeling to civil infrastructure.
+    </p>
+
+    <h2>Tools</h2>
+    <dl class="skill-grid">
+      <dt>Programming &amp; ML</dt>
+      <dd>Python, MATLAB, C, C++ — NumPy, Pandas, Scikit-Learn, TensorFlow, Keras, PyTorch</dd>
+      <dt>Structural analysis &amp; design</dt>
+      <dd>ETABS, SAP2000, AutoCAD, SketchUp</dd>
+    </dl>
+  </main>
+
+  <footer>
+    &copy; 2026 Sakib Siddique. Built as a static site, hosted on GitHub Pages.
+  </footer>
+</div>
+</body>
+</html>
